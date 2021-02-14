@@ -3,9 +3,16 @@ languageCode = "en-us"
 title = "M. Adam Kendall"
 theme = "m10c"
 
+enableGitInfo = true
+enableRobotsTXT = true
+
+[permalinks]
+  posts = "/:year/:month/:title/"
+
 [params]
   description = "maker + coder + devops + beer + bourbon - bullshit."
   author = "M. Adam Kendall"
+  GitHubUser = "LinuxBozo"
   menu_item_separator = " ▪︎ "
   [params.style]
     darkestColor = "#ECEFF4"
@@ -19,6 +26,9 @@ theme = "m10c"
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/linuxbozo"
+  [[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/linuxbozo"
 
 [menu]
   [[menu.main]]
