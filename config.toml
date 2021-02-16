@@ -1,13 +1,13 @@
 baseURL = "https://linuxbozo.github.io/"
 languageCode = "en-us"
-title = "M. Adam Kendall"
+title = "wtf, linuxbozo"
 theme = "m10c"
 
 enableGitInfo = true
 enableRobotsTXT = true
 
 [permalinks]
-  posts = "/:year/:month/:title/"
+  posts = "/:year/:month/:slug/"
 
 [params]
   description = "maker + coder + devops + beer + bourbon - bullshit."
@@ -15,11 +15,11 @@ enableRobotsTXT = true
   GitHubUser = "LinuxBozo"
   menu_item_separator = " ▪︎ "
   [params.style]
-    darkestColor = "#ECEFF4"
-    darkColor = "#D8DEE9"
-    lightColor = "#81A1C1"
-    lightestColor = "#5E81AC"
-    primaryColor = "#EBCB8B"
+    darkestColor = "#2E3440"
+    darkColor = "#3B4252"
+    lightColor = "#bbcad9"
+    lightestColor = "#A3BE8C"
+    primaryColor = "#88C0D0"
   [[params.social]]
     name = "github"
     url = "https://github.com/linuxbozo"
